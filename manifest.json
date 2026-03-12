@@ -5,6 +5,18 @@
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "map.png"
-    }
-}
+        "default_icon": "map.ico",
+        "icons": {
+            "16": "map.ico",
+            "32": "map.ico",
+            "48": "map.ico",
+            "128": "map.ico"
+        }
+    },
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}   
