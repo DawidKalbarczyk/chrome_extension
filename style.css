@@ -29,3 +29,50 @@ h1 {
 #button-no {
     background-color: red;
 }
+
+.slider-div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+    flex-direction: column;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    justify-self: center;
+    height: 6px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider-text-div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+    flex: 1;
+    width: 100%;
+}

@@ -3,6 +3,7 @@
     "description": "Testing my first chrome extension",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": ["tabs", "activeTab", "scripting", "storage"],
     "action": {
         "default_popup": "popup.html",
         "default_icon": "map.ico",

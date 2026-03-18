@@ -6,8 +6,14 @@
     <body>
         <h1>Do you want to do something?</h1>
         <div class="buttons-container">
-            <button id="button-yes">Yes</button>
-            <button id="button-no">No</button>
+            <button id="button-yes">Resize Text</button>
+            <button id="button-no">Stop Resizing</button>
+            <p>Pick how much you want to resize the text:</p>
+            <div class="slider-div">
+                <input type="range" min="1" max="20" value="1" class="slider" id="slider-id"/>
+                <p>Value: <span id="slider-value">1</span></p>
+            </div>
+            
         </div>
         <script src="script.js"></script>
     </body>
